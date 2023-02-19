@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <>
       <nav className="nav">
-        <img src="/logo.png" alt="React Logo" className="img" />
+        <img src="/logo.png" alt="React Logo" className="img-nav" />
         <h3 className="item">React Facts</h3>
       </nav>
     </>
