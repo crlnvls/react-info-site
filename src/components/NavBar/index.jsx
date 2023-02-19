@@ -1,10 +1,14 @@
 import React from "react";
 
+import "./NavBar.css";
+
 const NavBar = () => {
   return (
     <>
-      <img src="/logo.png" alt="React Logo" />
-      <h3>React Facts</h3>
+      <nav className="nav">
+        <img src="/logo.png" alt="React Logo" className="img" />
+        <h3 className="item">React Facts</h3>
+      </nav>
     </>
   );
 };

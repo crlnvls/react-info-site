@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <p>
-        2023 Ⓒ{" "}
+        2023 Ⓒ
         <Link to="https://github.com/crlnvls/react-info-site" target="_blank">
           Caroline Veloso
         </Link>

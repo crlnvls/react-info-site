@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Info from "./pages/Info";
+import "./App.css";
 
 function App() {
   return (
