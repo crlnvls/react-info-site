@@ -1,6 +1,7 @@
 import React from "react";
 
 import NavBar from "../../components/NavBar";
+import Footer from "../../components/Footer";
 
 const Info = () => {
   return (
@@ -14,6 +15,7 @@ const Info = () => {
         <li>It is maintained by Meta</li>
         <li>It powers thousands of enterprise apps, including mobile apps</li>
       </ul>
+      <Footer />
     </>
   );
 };
